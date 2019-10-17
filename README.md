@@ -1,5 +1,11 @@
 # Estrada-Inteligente
 
+## Membros
+* Iury Lima Rosal (422067)
+* Vinícius Almeida (413129)
+* Luís Gustavo (418210) 
+* Lucas Aragão (421601)
+
 ## Introdução
 Nos dias atuais, o uso da tecnologia em vias auxilia no gerenciamento do tráfego e na manutençãodas vias, tudo para a melhoria de fluxo de veículos e, ao mesmo tempo, provocando menosdemora na entrega de mercadorias via uso de rodovias. O projeto visa o uso de sensores para aidentificação de engarrafamento, luzes queimadas em postes públicos e o controle do limite develocidade na via. Tudo podendo ser monitorado e visualizado com o auxilio de um aplicativoem paralelo ao hardware com auxilio de conexão bluetooth.
 
@@ -13,7 +19,6 @@ Já em relação ao segundo modulo. 3 conjuntos de sensores de infravermelho agi
 Por fim, para identificar o congestionamento da via, será checado se um sensor infravermelho passar muito tempo bloqueado e ,uma vez que isso seja concretizado, o aplicativo indicará que a via está congestionada.
 
 ## Cronograma
-
 | Semanas                          | Objetivo                                            |
 | -------------------------------- |:---------------------------------------------------:|
 | **14/10 - 21/10** > Semana 1     | Planejamento e Documentação do Projeto              |
