@@ -18,6 +18,9 @@ Já em relação ao segundo modulo. 3 conjuntos de sensores de infravermelho agi
 
 Por fim, para identificar o congestionamento da via, será checado se um sensor infravermelho passar muito tempo bloqueado e ,uma vez que isso seja concretizado, o aplicativo indicará que a via está congestionada.
 
+## Diagrama de blocos
+![alt text](https://github.com/viniciusAC/Estrada-Inteligente/blob/master/Doc/diagrama_de_blocos.jpeg)
+
 ## Cronograma
 | Semanas                          | Objetivo                                            |
 | -------------------------------- |:---------------------------------------------------:|
