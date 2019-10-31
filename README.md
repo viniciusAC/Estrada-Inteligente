@@ -7,14 +7,12 @@
 * Lucas Aragão (421601)
 
 ## Introdução
-Nos dias atuais, o uso da tecnologia em vias auxilia no gerenciamento do tráfego e na manutençãodas vias, tudo para a melhoria de fluxo de veículos e, ao mesmo tempo, provocando menosdemora na entrega de mercadorias via uso de rodovias. O projeto visa o uso de sensores para aidentificação de engarrafamento, luzes queimadas em postes públicos e o controle do limite develocidade na via. Tudo podendo ser monitorado e visualizado com o auxilio de um aplicativoem paralelo ao hardware com auxilio de conexão bluetooth.
+Nos dias atuais, o uso da tecnologia em vias auxilia no gerenciamento do tráfego e na manutenção das vias, tudo para a melhoria de fluxo de veículos e, ao mesmo tempo, provocando menos demora na entrega de mercadorias via uso de rodovias. O projeto visa o uso de sensores para a identificação de engarrafamento, fazer um controle do limite de velocidade na via e por identificar dentre duas vias aquela com melhor fluxo de carros. Tudo podendo ser monitorado e visualizado com o auxilio de um aplicativo em paralelo ao hardware com auxilio de conexão bluetooth.
 
 ## Funcionamento
-A ideia geral do projeto se dividiria em dois módulos diferentes, um para detectar luzes queimadas e outro para identificar congestionamento e limite de velocidade.
+2 conjuntos de sensores de infravermelho agirão em conjunto para detectar a velocidade dos carros, onde sera calculado o tempo em que um veiculo passará entre dois sensores, que por sua vez será calculado a velocidade através do tempo e da distância entre dois sensores.
 
-No modulo referente as luzes, um LDR indica o funcionamento das luzes, assim mandado um sinal quando necessário para  microprocessador, que por sua vez mandara pro aplicativo que indicará a lampada defeituosa.
-
-Já em relação ao segundo modulo. 3 conjuntos de sensores de infravermelho agirão em conjunto para detectar a velocidade do usuário, onde sera calculado o tempo em que um veiculo passará entre dois sensores, que por sua vez será calculado a velocidade através do tempo e da distância entre dois sensores.
+Com a velocidade de uma via calculada, o mesmo processo será aplicada para uma outra via, assim podendo armazenar ambas velocidades e podendo calcular a velocidade media das duas vias. Uma vez que tudo isso foi calculado, basta comparar qual via tem uma maior velocidade media e mandar essa informação para o aplicativo através do modulo bluetooth da placa.
 
 Por fim, para identificar o congestionamento da via, será checado se um sensor infravermelho passar muito tempo bloqueado e ,uma vez que isso seja concretizado, o aplicativo indicará que a via está congestionada.
 
