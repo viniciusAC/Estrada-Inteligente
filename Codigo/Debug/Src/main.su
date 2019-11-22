@@ -1,0 +1,12 @@
+main.c:96:5:main	64	static
+main.c:197:6:fastest_road	24	static
+main.c:210:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:223:10:readv	40	static
+main.c:251:6:sendData	16	static
+main.c:261:6:SystemClock_Config	96	static
+main.c:304:13:MX_ADC_Init	24	static
+main.c:377:13:MX_TIM14_Init	8	static
+main.c:408:13:MX_TIM16_Init	8	static
+main.c:440:13:MX_USART1_UART_Init	8	static
+main.c:475:13:MX_GPIO_Init	16	static
+main.c:491:6:Error_Handler	8	static
